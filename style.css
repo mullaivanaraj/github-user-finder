@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: black;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.output-container {
+    justify-content: center;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px #6824c2;
+}
+
+.container {
+    margin: 5rem auto;
+}
+
+.title-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.git-img {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: #7b11d1;
+}
+
+#title {
+    color: #7b11d1;
+    padding-left: 0.7rem;
+    margin-top: 2rem;
+}
+
+#profile img {
+    margin-left: 25px;
+    margin-top: 35px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.username h1 {
+    font-weight: bold;
+}
+
+#name>a {
+    color: white;
+}
+
+.profile {
+    margin-top: 40px;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: white;
+}
+
+.profile>header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header>div>p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    padding-bottom: 2rem;
+}
+
+#location {
+    padding-left: 5px;
+    font-family: 'Public Sans', sans-serif
+}
+
+#bio {
+    width: 500px;
+    margin-bottom: 1rem;
+}
+
+table {
+    margin-top: 2rem;
+    background-color: #dae3f7;
+    border-collapse: collapse;
+    border-radius: 10px;
+    color: black;
+}
+
+td,
+th {
+    padding: 8px 30px;
+}
+
+td {
+    text-align: center;
+}
+
+.search-bar {
+    box-shadow: 1px 1px 10px #156cdd;
+    width: auto;
+    height: 70px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.search-nav {
+    display: flex;
+    font-size: 1.5rem;
+    color: #60a5fa;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#search-button {
+    background-color: #60a5fa;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-name {
+    font-family: 'Public Sans', sans-serif;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    width: 600px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+#search-name::placeholder {
+    color: rgb(182, 174, 174);
+}
+
+#search-button:hover {
+    background-color: #446ea5;
+}
+
+
+ul {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+span {
+    color: white;
+    margin-left: 1rem;
+}
+
+.profile-img>nav {
+    color: white;
+}
+
+#output {
+    display: none;
+}
+
+#error-msg {
+    color: #075985;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#title {
+    padding-bottom: 1em;
+}
+
+#twitter,
+#twitter>a,
+#bio-link,
+#bio-link>a {
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+}
+
+
+#bio-link:hover {
+    text-decoration: underline;
+}
+
+#twitter:hover {
+    text-decoration: underline;
+}
+
+.search-nav>i {
+    margin-top: 5px;
+}
+
+
+@media(max-width:800px) {
+    body {
+        background: black;
+        display: block;
+        font-size: 12px;
+    }
+
+    .container {
+        margin: 5rem 1.5rem;
+    }
+
+    td,
+    th {
+        padding: 7px 10px;
+    }
+
+    #bio {
+        width: 200px;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .profile {
+        margin-left: 10px;
+    }
+
+    .profile-section {
+        margin-left: 0.5rem;
+        width: 50%
+    }
+
+    span {
+        margin-left: 0.5rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .git-img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media(max-width:432px) {
+    .container {
+        margin: 5rem auto;
+    }
+
+    nav {
+        margin-left: 1rem;
+    }
+
+}
